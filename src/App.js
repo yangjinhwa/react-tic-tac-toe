@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Board from "./component/game";
+import Board from "./component/board";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
      <Board />
     </>
   );
+
 }
 
 export default App;
