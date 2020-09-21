@@ -37,10 +37,12 @@ button {
   flex-wrap: wrap;
 }
 
-.historyList {
+.moveToHistoryBtn:hover {
+  font-weight: 700;
   cursor: pointer;
 }
 
-.historyList:hover {
+.targetHistory {
+  background-color: aliceblue;
   font-weight: 700;
 }
